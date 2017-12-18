@@ -13,7 +13,7 @@ class He implements Hehe{
 
 	@Override
 	public void say() {
-		System.out.println("蔡金英");
+		System.out.println("李丽红");
 	}
 	
 }
@@ -51,7 +51,7 @@ class Heeeee extends Lilihong{
 
 	@Override
 	public void yuehui() {
-		System.out.println("蔡金英miss you!");
+		System.out.println("李丽红miss you!");
 	}
 	
 }
@@ -80,7 +80,7 @@ class HeeFactory implements  HeheFactory{
 
 class T {
 	
-	private String vr = "今晚下班后打电话给蔡金英";
+	private String vr = "今晚下班后打电话给李丽红";
 	
 	class G{
 		private int i = 11;
@@ -143,7 +143,7 @@ class T {
 		T tt = new T();
 		T.G g = tt.getG();
 		System.err.println(g.value());
-		T.De de = tt.to("蔡金英我爱你");
+		T.De de = tt.to("李丽红我爱你");
 		System.err.println(de.r());
 		de.cjy();
 		
